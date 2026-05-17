@@ -1,5 +1,5 @@
 import pandas as pd
-import mysql.connector
+import mysql.connector # type: ignore
 
 # MySQL se connect karo
 conn = mysql.connector.connect(
